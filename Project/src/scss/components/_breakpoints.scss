@@ -1,0 +1,23 @@
+@media screen and (max-width: 400px) {
+    .show-menu {
+        transform: translate(65%);
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .show-menu {
+        transform: translate(50%);
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .show-menu {
+        transform: translate(40%);
+    }
+}
+
+@media screen and (min-width: 900px){
+    .show-menu {
+        transform: translate(30%);
+    }
+}
